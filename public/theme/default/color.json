@@ -1,0 +1,309 @@
+[
+  {
+    "name": "--primary-color",
+    "value": "#3377FF"
+  },
+  {
+    "name": "--comp-hover-color",
+    "value": "#5990FF"
+  },
+  {
+    "name": "--item-hover-color",
+    "value": "#EBF8FF"
+  },
+  {
+    "name": "--form-item-label-color",
+    "value": "#515a6e"
+  },
+  {
+    "name": "--info-color",
+    "value": "#2db7f5"
+  },
+  {
+    "name": "--success-color",
+    "value": "#19be6b"
+  },
+  {
+    "name": "--processing-color",
+    "value": "#3377FF"
+  },
+  {
+    "name": "--warning-color",
+    "value": "#ff9900"
+  },
+  {
+    "name": "--error-color",
+    "value": "#ed4014"
+  },
+  {
+    "name": "--normal-color",
+    "value": "#e6ebf1"
+  },
+  {
+    "name": "--link-color",
+    "value": "#2D8cF0"
+  },
+  {
+    "name": "--link-hover-color",
+    "value": "tint(#2D8cF0, 20%)"
+  },
+  {
+    "name": "--link-hover-color",
+    "value": "shade(#2D8cF0, 5%)"
+  },
+  {
+    "name": "--selected-color",
+    "value": "fade(#3377FF, 90%)"
+  },
+  {
+    "name": "--tooltip-color",
+    "value": "#808695"
+  },
+  {
+    "name": "--subsidiary-color",
+    "value": "#ff9900"
+  },
+  {
+    "name": "--rate-star-color",
+    "value": "#f5a623"
+  },
+  {
+    "name": "--white",
+    "value": "#fff"
+  },
+  {
+    "name": "--black",
+    "value": "#000"
+  },
+  {
+    "name": "--transparent",
+    "value": "transparent"
+  },
+
+  {
+    "name": "--body-background",
+    "value": "#F0F1F2"
+  },
+  {
+    "name": "--dropdown-background",
+    "value": "#fff"
+  },
+  {
+    "name": "--component-head-background",
+    "value": "#fff"
+  },
+  {
+    "name": "--component-background",
+    "value": "#fff"
+  },
+  {
+    "name": "--position-background",
+    "value": "#fff"
+  },
+  {
+    "name": "--title-color",
+    "value": "#17233d"
+  },
+  {
+    "name": "--text-color",
+    "value": "#2E3033"
+  },
+  {
+    "name": "--text-color-secondary",
+    "value": "fade(#000, 45%)"
+  },
+  {
+    "name": "--heading-color",
+    "value": "fade(#000, 85%)"
+  },
+  {
+    "name": "--heading-color-dark",
+    "value": "fade(#fff, 100%)"
+  },
+  {
+    "name": "--body-color",
+    "value": "#2E3033"
+  },
+  {
+    "name": "--input-placeholder-color",
+    "value": "#A1A7B3"
+  },
+  {
+    "name": "--border-color-base",
+    "value": "#C2C5CC"
+  },
+  {
+    "name": "--border-color-split",
+    "value": "#E2E6ED"
+  },
+
+  {
+    "name": "--background-color-base",
+    "value": "#F7F7F7"
+  },
+  {
+    "name": "--tooltip-bg",
+    "value": "rgba(70, 76, 91, .9)"
+  },
+  {
+    "name": "--head-bg",
+    "value": "#f9fafc"
+  },
+  {
+    "name": "--table-thead-bg",
+    "value": "#F7F7F7"
+  },
+  {
+    "name": "--table-thead-color",
+    "value": "#808695"
+  },
+  {
+    "name": "--table-tbody-bg",
+    "value": "#fff"
+  },
+  {
+    "name": "--table-td-stripe-bg",
+    "value": "#FAFAFA"
+  },
+  {
+    "name": "--table-tbody-fixed-bg",
+    "value": "#fff"
+  },
+  {
+    "name": "--table-td-stripe-fixed-bg",
+    "value": "#FAFAFA"
+  },
+  {
+    "name": "--table-td-hover-bg",
+    "value": "#EBF8FF"
+  },
+  {
+    "name": "--table-td-highlight-bg",
+    "value": "#EBF8FF"
+  },
+  {
+    "name": "--menu-dark-title",
+    "value": "#dcdee2"
+  },
+  {
+    "name": "--menu-dark-active-bg",
+    "value": "#363e4f"
+  },
+  {
+    "name": "--menu-dark-subsidiary-color",
+    "value": "rgba(255,255,255,.7)"
+  },
+  {
+    "name": "--menu-dark-group-title-color",
+    "value": "rgba(255,255,255,.36)"
+  },
+  {
+    "name": "--menu-color",
+    "value": "#8A8F99"
+  },
+  {
+    "name": "--date-picker-cell-hover-bg",
+    "value": "#e1f0fe"
+  },
+
+  {
+    "name": "--modal-header-color",
+    "value": "#2E3033"
+  },
+
+  {
+    "name": "--shadow-color",
+    "value": "rgba(0, 0, 0, .2)"
+  },
+  {
+    "name": "--shadow-card",
+    "value": "0 1px 1px 0 rgba(0,0,0,.1)"
+  },
+
+  {
+    "name": "--btn-group-border",
+    "value": "shade(#3377FF, 5%)"
+  },
+  {
+    "name": "--btn-disable-color",
+    "value": "#c5c8ce"
+  },
+  {
+    "name": "--btn-default-bg",
+    "value": "rgba(255, 255, 255, .05)"
+  },
+  {
+    "name": "--btn-primary-color",
+    "value": "#fff"
+  },
+  {
+    "name": "--btn-ghost-bg",
+    "value": "#fff"
+  },
+
+  {
+    "name": "--layout-body-background",
+    "value": "#f5f7f9"
+  },
+  {
+    "name": "--layout-header-background",
+    "value": "#515a6e"
+  },
+  {
+    "name": "--layout-footer-background",
+    "value": "#f5f7f9"
+  },
+  {
+    "name": "--layout-sider-background",
+    "value": "#515a6e"
+  },
+  {
+    "name": "--layout-trigger-color",
+    "value": "#fff"
+  },
+
+  {
+    "name": "--legend-color",
+    "value": "#999"
+  },
+
+  {
+    "name": "--input-bg",
+    "value": "#fff"
+  },
+  {
+    "name": "--input-group-bg",
+    "value": "#f8f8f9"
+  },
+  {
+    "name": "--input-disabled-bg",
+    "value": "#f3f3f3"
+  },
+
+  {
+    "name": "--slider-color",
+    "value": "tint(#3377FF, 20%)"
+  },
+  {
+    "name": "--slider-disabled-color",
+    "value": "#ccc"
+  },
+
+  {
+    "name": "--avatar-bg",
+    "value": "#ccc"
+  },
+  {
+    "name": "--avatar-color",
+    "value": "#fff"
+  },
+
+  {
+    "name": "--list-header-background",
+    "value": "transparent"
+  },
+  {
+    "name": "--list-footer-background",
+    "value": "transparent"
+  }
+]

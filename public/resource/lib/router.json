@@ -1,0 +1,15 @@
+[
+  {
+    "path": "",
+    "name": "Home",
+    "label": "首页",
+    "component": "FullLayout",
+    "children": [
+      {
+        "path": "/demo",
+        "name": "demo",
+        "component": "home/demo"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "modelType": "obj",
+  "obj": "assets/yangliangxi/effects/cjb.obj",
+  "mtl": "assets/yangliangxi/effects/cjb.mtl",
+  "prefix": "assets/yangliangxi/effects/",
+  "reverseFlipMtls": "*"
+}

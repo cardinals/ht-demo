@@ -1,0 +1,50 @@
+{
+  "international": {
+    "TITLE": "Internationalization",
+    "DESCRIPTION":"Welcome to internationalization",
+    "COLUMNS": {
+      "NAME":"Name",
+      "AGE":"Age",
+      "ADDRESS":"Address"
+    },
+    "DATA":[
+      {
+        "NAME":"John Brown",
+        "ADDRESS":"New York No. 1 Lake Park"
+      },
+      {
+        "NAME":"Jim Green",
+        "ADDRESS":"London No. 1 Lake Park"
+      },
+      {
+        "NAME":"Joe Black",
+        "ADDRESS":"Sydney No. 1 Lake Park"
+      },
+      {
+        "NAME":"Jon Snow",
+        "ADDRESS":"Ottawa No. 1 Lake Park"
+      }
+    ],
+    "FORM":{
+      "INPUT":"Enter something...",
+      "SELECT":"Select something...",
+      "DATE":"Select Date",
+      "TIME":"Select  Time",
+      "MALE":"Male",
+      "FEMALE":"Female",
+      "OFF":"off",
+      "ON":"on",
+      "SUBMIT":"submit",
+      "CANCEL":"cancel"
+
+    },
+    "New York":"New York",
+    "London":"London",
+    "Sydney":"Sydney",
+    "ABOUTUS": "选择日期",
+    "SERVICES": "主营业务",
+    "LIVERATE": "实时汇率",
+    "NEWS": "最新资讯",
+    "CONTACTUS": ""
+  }
+}

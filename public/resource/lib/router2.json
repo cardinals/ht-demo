@@ -1,0 +1,325 @@
+[
+  {
+    "path": "",
+    "name": "Home",
+    "label": "首页",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/introduce",
+        "label": "js库",
+        "name": "introduce",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "home/introduce"
+      },
+      {
+        "path": "/home",
+        "label": "基础UI",
+        "name": "home",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "home/home"
+      },
+      {
+        "path": "/tailwind",
+        "label": "tailwind",
+        "name": "tailwind",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "tailwind"
+      },
+      {
+        "path": "/iframe-base",
+        "label": "iframe基础嵌入",
+        "name": "iframe-base",
+        "meta": {
+          "requireAuth": true,
+          "pathUrl": "http://news.baidu.com/",
+          "title": "iframe基础嵌入"
+        },
+        "component": "iframe/full"
+      },
+      {
+        "path": "/iframe-full",
+        "label": "iframe嵌入全屏",
+        "name": "iframe-full",
+        "meta": {
+          "requireAuth": true,
+          "pathUrl": "http://news.baidu.com/",
+          "title": "iframe嵌入全屏"
+        },
+        "component": "iframe/full"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "config",
+    "label": "图扑",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/htWeb",
+        "label": "图扑",
+        "name": "ht-web",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "ht-web/ht-web"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "SuperMap",
+    "label": "超图",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/superMap",
+        "label": "超图",
+        "name": "superMap",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "superMap/superMap"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "internation",
+    "label": "国际化",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/i18n",
+        "label": "国际化",
+        "name": "i18n",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "i18n/i18n"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "GirdLayout",
+    "label": "拖拽",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/girdLayout",
+        "label": "栅格拖拽",
+        "name": "girdLayout",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "vueGridLayout/vueGridLayout"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "graphicVerification",
+    "label": "图形验证",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/graphicVerification",
+        "label": "图形验证",
+        "name": "graphicVerification",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "graphicVerification/graphicVerification"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "SVG",
+    "label": "svg",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/svg",
+        "label": "svg",
+        "name": "svg",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "svg/svg"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "video",
+    "label": "视频",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/videoMonitor",
+        "label": "视频",
+        "name": "videoMonitor",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "videoMonitor/videoMonitor"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "videoFlv",
+    "label": "视频Flv",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/videoMonitorFlv",
+        "label": "视频Flv",
+        "name": "videoMonitorFlv",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "videoMonitor/videoMonitorFlv"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "screen",
+    "label": "大屏",
+    "component": "FullLayout",
+    "children": [
+      {
+        "path": "/fullScreen",
+        "label": "大屏",
+        "name": "fullScreen",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "fullScreen/fullScreen"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "charts",
+    "label": "图表",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/example",
+        "label": "常用图表",
+        "name": "example",
+        "meta": {},
+        "component": "example/example"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "components",
+    "label": "组件",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/component",
+        "label": "全能列表",
+        "name": "component",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "components/component"
+      },
+      {
+        "path": "/commonlyUsed",
+        "label": "常用组件",
+        "name": "commonlyUsed",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "components/commonlyUsed"
+      },
+      {
+        "path": "/other",
+        "label": "标准代码",
+        "name": "other",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "components/other"
+      },
+      {
+        "path": "/iviewUsed",
+        "label": "常用UI",
+        "name": "iviewUsed",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "components/iviewUsed"
+      },
+      {
+        "path": "/special",
+        "label": "特殊组件",
+        "name": "special",
+        "meta": {
+          "buttons": "_show,_delete,_edit,_add"
+        },
+        "component": "components/special"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "makingForm",
+    "label": "拖拽",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/makingForm",
+        "label": "拖拽",
+        "name": "makingForm",
+        "meta": {},
+        "component": "makingForm/makingForm"
+      }
+    ]
+  },
+  {
+    "path": "",
+    "name": "aaron",
+    "label": "我的练习",
+    "component": "Layout",
+    "children": [
+      {
+        "path": "/ylx-page0",
+        "label": "初步尝试-分页与表格数据显示",
+        "name": "ylx-page0",
+        "meta": {},
+        "component": "aaron/ylx-page0"
+      }
+      ,
+      {
+        "path": "/ylx-page2",
+        "label": "html拼页面-仿照能源管理系统首页",
+        "name": "ylx-page2",
+        "meta": {},
+        "component": "aaron/ylx-page2"
+      },
+      {
+        "path": "/ylx-page1",
+        "label": "iview拼页面-仿照能源管理系统首页",
+        "name": "ylx-page1",
+        "meta": {},
+        "component": "aaron/ylx-page1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,219 @@
+:root {
+  // Color
+  --primary-color          : #2d8cf0;
+  --comp-hover-color       : #57a3f3;
+  --item-hover-color       : #f3f3f3;
+  --form-item-label-color  : #515a6e;
+  --info-color             : #2db7f5;
+  --success-color          : #19be6b;
+  --warning-color          : #ff9900;
+  --error-color            : #ed4014;
+  --normal-color           : #e6ebf1;
+  --link-color             : #2d8cf0;
+  --link-hover-color       : tint(#2d8cf0, 20%);
+  --link-active-color      : shade(#2d8cf0, 5%);
+  --selected-color         : fade(#2d8cf0, 90%);
+  --tooltip-color          : #fff;
+  --subsidiary-color       : #808695;
+  --rate-star-color        : #f5a623;
+  --table-thead-color      : #8A8F99;
+  --white: #fff;
+  --black: #000;
+  --transparent: transparent;
+
+  // Base
+  --body-background        : #fff;
+  --dropdown-background   : #fff;
+  --component-head-background: #fff;
+  --component-background: #fff;
+  --title-color            : #17233d;
+  --text-color             : #515a6e;
+  --text-color-secondary: fade(#000, 45%);
+  --heading-color: fade(#000, 85%);
+  --heading-color-dark: fade(#fff, 100%);
+  --body-color             : #515a6e;
+  --position-background    : transparent;
+
+  // Border color
+  --border-color-base      : #dcdee2;  // outside
+  --border-color-split     : #e8eaec;  // inside
+
+  // Background color
+  --background-color-base        : #f7f7f7;  // base
+  --tooltip-bg                   : rgba(70, 76, 91, .9);
+  --head-bg                      : #f9fafc;
+  --table-thead-bg               : #fff;
+  --table-thead-color            : #515a6e;
+  --table-tbody-bg               : #fff;
+  --table-td-stripe-bg           : #f8f8f9;
+  --table-tbody-fixed-bg         : #fff;
+  --table-td-stripe-fixed-bg     : #f8f8f9;
+  --table-td-hover-bg            : #ebf7ff;
+  --table-td-highlight-bg        : #ebf7ff;
+  --menu-dark-title              : #515a6e;
+  --menu-dark-active-bg          : #363e4f;
+  --menu-dark-subsidiary-color   : rgba(255,255,255,.7);
+  --menu-dark-group-title-color  : rgba(255,255,255,.36);
+  --menu-color                   : #515a6e;
+  --date-picker-cell-hover-bg    : #e1f0fe;
+  --modal-header-color           : #17233d;       
+
+  // Shadow
+  --shadow-color           : rgba(0, 0, 0, .2);
+  --shadow-card            : 0 1px 1px 0 rgba(0,0,0,.1);
+
+  // Button
+  --btn-group-border       : shade(#2d8cf0, 5%);
+  --btn-disable-color      : #c5c8ce;
+  --btn-default-bg         : #fff;
+  --btn-primary-color      : #fff;
+  --btn-ghost-bg           : #fff;
+
+  // Layout and Grid
+  --layout-body-background      : #f5f7f9;
+  --layout-header-background    : #515a6e;
+  --layout-footer-background    : #f5f7f9;
+  --layout-sider-background     : #515a6e;
+  --layout-trigger-color        : #fff;
+
+  // Legend
+  --legend-color           : #999;
+
+  // Input
+  --input-bg                    : #fff;
+  --input-group-bg              : #f8f8f9;
+
+  --input-disabled-bg           : #f3f3f3;
+
+  // Slider
+  --slider-color              : tint(#2d8cf0, 20%);
+  --slider-disabled-color     : #ccc;
+
+  // Avatar
+  --avatar-bg: #ccc;
+  --avatar-color: #fff;
+
+  // List
+  --list-header-background: transparent;
+  --list-footer-background: transparent;
+}
+// Color
+@primary-color          : var(--primary-color);
+@comp-hover-color       : var(--comp-hover-color);
+@item-hover-color       : var(--item-hover-color);
+@form-item-label-color  : var(--form-item-label-color);
+@info-color             : var(--info-color);
+@success-color          : var(--success-color);
+@processing-color       : var(--primary-color);
+@warning-color          : var(--warning-color);
+@error-color            : var(--error-color);
+@normal-color           : var(--normal-color);
+@link-color             : var(--link-color);
+@link-hover-color       : var(--link-hover-color);
+@link-active-color      : var(--link-active-color);
+@selected-color         : var(--selected-color);
+@tooltip-color          : var(--tooltip-color);
+@subsidiary-color       : var(--subsidiary-color);
+@rate-star-color        : var(--rate-star-color);
+@white: var(--white);
+@black: var(--black);
+@transparent: var(--transparent);
+
+// Base
+@body-background        : var(--body-background);
+@dropdown-background   : var(--dropdown-background);
+@component-head-background   : var(--component-head-background);
+@component-background   : var(--component-background);
+@title-color            : var(--title-color);
+@text-color             : var(--text-color);
+@text-color-secondary: var(--text-color-secondary);
+@heading-color: var(--heading-color);
+@heading-color-dark: var(--heading-color-dark);
+@body-color             : var(--body-color);
+@position-background    : var(--position-background);
+
+// Border color
+@border-color-base      : var(--border-color-base);  // outside
+@border-color-split     : var(--border-color-split);  // inside
+
+// Background color
+@background-color-base        : var(--background-color-base);  // base
+@background-color-select-hover: var(--input-disabled-bg);
+@tooltip-bg                   : var(--tooltip-bg);
+@head-bg                      : var(--head-bg);
+@table-thead-bg               : var(--table-thead-bg);
+@table-thead-color            : var(--table-thead-color);
+@table-tbody-bg               : var(--table-tbody-bg);
+@table-td-stripe-bg           : var(--table-td-stripe-bg);
+@table-tbody-fixed-bg         : var(--table-tbody-fixed-bg);
+@table-td-stripe-fixed-bg     : var(--table-td-stripe-fixed-bg);
+@table-td-hover-bg            : var(--table-td-hover-bg);
+@table-td-highlight-bg        : var(--table-td-highlight-bg);
+@menu-dark-title              : var(--menu-dark-title);
+@menu-dark-active-bg          : var(--menu-dark-active-bg);
+@menu-dark-subsidiary-color   : var(--menu-dark-subsidiary-color);
+@menu-dark-group-title-color  : var(--menu-dark-group-title-color);
+@menu-color                   : var(--menu-color);
+@date-picker-cell-hover-bg    : var(--date-picker-cell-hover-bg);
+@modal-header-color           : var(--modal-header-color);
+
+// Shadow
+@shadow-color           : var(--shadow-color);
+@shadow-base            : var(--shadow-down);
+@shadow-card            : var(--shadow-card);
+@shadow-up              : 0 -1px 6px var(--shadow-color);
+@shadow-down            : 0 1px 6px var(--shadow-color);
+@shadow-left            : -1px 0 6px var(--shadow-color);
+@shadow-right           : 1px 0 6px var(--shadow-color);
+
+// Button
+@btn-group-border       : var(--btn-group-border);
+
+@btn-disable-color      : var(--btn-disable-color);
+@btn-disable-bg         : var(--background-color-base);
+@btn-disable-border     : var(--border-color-base);
+
+@btn-default-color      : var(--text-color);
+@btn-default-bg         : var(--btn-default-bg);
+@btn-default-border     : var(--border-color-base);
+
+@btn-primary-color      : var(--btn-primary-color);
+@btn-primary-bg         : var(--primary-color);
+
+@btn-ghost-color        : var(--text-color);
+@btn-ghost-bg           : var(--btn-ghost-bg);
+@btn-ghost-border       : var(--border-color-base);
+
+// Layout and Grid
+@layout-body-background      : var(--layout-body-background);
+@layout-header-background    : var(--layout-header-background);
+@layout-footer-background    : var(--layout-body-background);
+@layout-sider-background     : var(--layout-header-background);
+@layout-trigger-color        : var(--layout-trigger-color);
+
+// Legend
+@legend-color           : var(--legend-color);
+
+// Input
+@input-placeholder-color     : var(--btn-disable-color);
+@input-color                 : var(--text-color);
+@input-border-color          : var(--border-color-base);
+@input-bg                    : var(--input-bg);
+@input-group-bg              : var(--input-group-bg);
+
+@input-hover-border-color    : var(--primary-color);
+@input-focus-border-color    : var(--primary-color);
+@input-disabled-bg           : var(--input-disabled-bg);
+
+// Slider
+@slider-color              : var(--slider-color);
+@slider-disabled-color     : var(--slider-disabled-color);
+
+// Avatar
+@avatar-bg: var(--avatar-bg);
+@avatar-color: var(--avatar-color);
+
+// List
+@list-header-background: var(--list-header-background);
+@list-footer-background: var(--list-footer-background);
+

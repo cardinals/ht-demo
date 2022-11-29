@@ -1,0 +1,7 @@
+{
+  "modelType": "obj",
+  "obj": "assets/楼层/boli.obj",
+  "mtl": "assets/楼层/boli.mtl",
+  "prefix": "assets/楼层/",
+  "reverseFlipMtls": "*"
+}

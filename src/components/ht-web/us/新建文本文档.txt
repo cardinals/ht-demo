@@ -1,0 +1,1 @@
+uglifyjs search_collect.js -c -m -o search_collect.min.js

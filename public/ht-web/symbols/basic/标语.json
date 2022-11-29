@@ -1,0 +1,28 @@
+{
+  "modified": "Tue Mar 15 2022 10:33:01 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "标语",
+      "valueType": "String"
+    }
+  ],
+  "width": 100,
+  "height": 20,
+  "comps": [
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@标语",
+        "value": "安 全 生 产  "
+      },
+      "color": "rgb(212,0,0)",
+      "font": "bold 15px fantasy",
+      "rect": [
+        14.13162,
+        -15,
+        50,
+        50
+      ]
+    }
+  ]
+}

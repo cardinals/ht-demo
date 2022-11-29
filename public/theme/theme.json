@@ -1,0 +1,18 @@
+[
+  {
+    "key": "default",
+    "label": "默认"
+  },
+  {
+    "key": "blue",
+    "label": "深海蓝"
+  },
+  {
+    "key": "dark",
+    "label": "幻影黑"
+  },
+  {
+    "key": "orange",
+    "label": "活力橙"
+  }
+]

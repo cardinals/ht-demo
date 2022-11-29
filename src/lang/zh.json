@@ -1,0 +1,50 @@
+{
+  "international": {
+    "TITLE": "国际化",
+    "DESCRIPTION":"欢迎使用国际化",
+    "COLUMNS": {
+      "NAME":"姓名",
+      "AGE":"年龄",
+      "ADDRESS":"地址"
+    },
+    "DATA":[
+      {
+        "NAME":"约翰布朗",
+        "ADDRESS":"纽约第一湖公园"
+      },
+      {
+        "NAME":"吉姆·格林",
+        "ADDRESS":"伦敦第一湖公园"
+      },
+      {
+        "NAME":"乔·布莱克",
+        "ADDRESS":"悉尼第一湖公园"
+      },
+      {
+        "NAME":"乔恩斯诺",
+        "ADDRESS":"渥太华第一湖公园"
+      }
+    ],
+    "FORM":{
+      "INPUT":"请输入",
+      "SELECT":"请选择",
+      "DATE":"请选择日期",
+      "TIME":"请选择时间",
+      "MALE":"男",
+      "FEMALE":"女",
+      "OFF":"关",
+      "ON":"开",
+      "SUBMIT":"提交",
+      "CANCEL":"取消"
+
+    },
+    "New York":"纽约",
+    "London":"伦敦",
+    "Sydney":"悉尼",
+    "ABOUTUS": "选择日期",
+    "SERVICES": "主营业务",
+    "LIVERATE": "实时汇率",
+    "NEWS": "最新资讯",
+    "CONTACTUS": ""
+  }
+}

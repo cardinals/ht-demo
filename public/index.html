@@ -1,0 +1,62 @@
+<!--
+ * @description:
+ * @Author: licongzheng
+ * @Date: 2021-01-18 18:46:45
+ * @LasteEditors: licongzheng
+ * @LastEditTime: 2022-02-18 11:13:41
+-->
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"
+    content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+  <!-- 引入全局配置文件 -->
+  <script src="<%= BASE_URL %>cfg.js" type="text/javascript" charset="utf-8"></script>
+  <!-- 引入图标库 -->
+  <link rel="stylesheet" href="<%= BASE_URL %>/resource/icon/iconfont.css" />
+  <!-- 项目logo -->
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <!-- 引入cesium依赖 -->
+  <link href="./Cesium/Widgets/widgets.css" rel="stylesheet">
+  <script type="text/javascript" src="./Cesium/Cesium.js"></script>
+</head>
+
+<body class="default">
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app">
+    <!-- 图扑 -->
+    <script>
+      window.htconfig = {
+        Default: {
+          convertURL: function (url) {
+            return 'ht-web/' + url;
+          }
+        }
+      }
+
+    </script>
+    <script src='<%= BASE_URL %>ht-web/libs/echarts.js'></script>
+    <script type="text/javascript" src="<%= BASE_URL %>ht-web/lib/core/ht.js"></script>
+    <script src='<%= BASE_URL %>ht-web/lib/plugin/ht-edgetype.js'></script>
+    <script src="<%= BASE_URL %>ht-web/lib/plugin/ht-animation.js"></script>
+    <script src="<%= BASE_URL %>ht-web/lib/plugin/ht-obj.js"></script>
+    <script src="<%= BASE_URL %>ht-web/lib/plugin/ht-form.js"></script>
+    <script src="<%= BASE_URL %>ht-web/lib/plugin/ht-flow.js"></script>
+  </div>
+  <!-- built files will be auto injected -->
+  <!-- 视频 s-->
+  <script src="<%= BASE_URL %>video/video.js" type="text/javascript" charset="utf-8"></script>
+  <script src="<%= BASE_URL %>video/videojs-http-streaming.js" type="text/javascript" charset="utf-8"></script>
+  <!-- 视频 e-->
+</body>
+
+</html>

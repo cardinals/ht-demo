@@ -1,0 +1,120 @@
+{
+  "modified": "Wed Oct 13 2021 16:19:16 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "jiankongbiankuang",
+      "valueType": "Color"
+    }
+  ],
+  "width": 100,
+  "height": 200,
+  "comps": [
+    {
+      "type": "roundRect",
+      "background": "rgba(14,39,59,0.5)",
+      "borderWidth": 3,
+      "borderColor": {
+        "func": "attr@jiankongbiankuang",
+        "value": "rgb(255,119,0)"
+      },
+      "rotation": 0.7854,
+      "rect": [
+        17.541,
+        20.41597,
+        66.26769,
+        65.78952
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,119,0)",
+      "borderColor": "#979797",
+      "gradient": "linear.southwest",
+      "gradientColor": "#FEB64D",
+      "closePath": true,
+      "points": [
+        32.63793,
+        45.52428,
+        35.40704,
+        42.6444,
+        67.5288,
+        62.91434,
+        71.95939,
+        59.5914,
+        70.18715,
+        64.35428,
+        68.63645,
+        65.90499,
+        65.53504,
+        65.79422
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,119,0)",
+      "borderColor": "#979797",
+      "gradient": "linear.southwest",
+      "gradientColor": "#FEB64D",
+      "closePath": true,
+      "points": [
+        31.19799,
+        50.28717,
+        36.51469,
+        51.61634,
+        36.51469,
+        57.9309,
+        41.5101,
+        57.9309,
+        43.16057,
+        53.49934,
+        48.80957,
+        57.04381,
+        44.71128,
+        63.0251,
+        36.40319,
+        63.0251,
+        36.40319,
+        70.34309,
+        31.19799,
+        72.32934
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,119,0)",
+      "borderColor": "#979797",
+      "gradient": "linear.southwest",
+      "gradientColor": "#FEB64D",
+      "closePath": true,
+      "points": [
+        32.85946,
+        36.77387,
+        38.95151,
+        27.24811,
+        43.60363,
+        27.24811,
+        80.7098,
+        51.83787,
+        68.63645,
+        59.5914,
+        65.9781,
+        59.5914,
+        32.85946,
+        39.32146
+      ]
+    },
+    {
+      "type": "roundRect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "gradient": "linear.south",
+      "gradientColor": "rgba(255,255,255,0)",
+      "rect": [
+        50,
+        100.67659,
+        1.9739,
+        95.15562
+      ]
+    }
+  ]
+}

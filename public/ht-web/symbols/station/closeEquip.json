@@ -1,0 +1,51 @@
+{
+  "modified": "Fri May 06 2022 17:45:36 GMT+0800 (中国标准时间)",
+  "width": 40,
+  "height": 40,
+  "comps": [
+    {
+      "type": "circle",
+      "background": "rgb(0,255,212)",
+      "borderWidth": 1,
+      "borderColor": "rgb(27,204,174)",
+      "displayName": "close",
+      "rotation": {
+        "func": "__ht__function(data, view) {\ndata.i = 10;\r\nsetInterval(function () {\r\n    data.i += 10;\r\n    data.rotation = data.i\r\n}, 500)\n}"
+      },
+      "rect": [
+        2.72253,
+        2.02331,
+        36,
+        36
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(24,84,63)",
+      "displayName": "fan",
+      "rotation": {
+        "func": "__ht__function(data, view) {\nconsole.info(data)\r\nlet rotationEle = data.getImage().comps[1];\r\nlet i=10;\r\nsetInterval(function () {\r\n    i += 10;\r\n    rotationEle.rotation=i;\r\n    view.redraw();\r\n}, 500)\n}"
+      },
+      "points": [
+        10.62091,
+        12.13979,
+        30.3297,
+        27.90682
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(24,84,63)",
+      "points": [
+        30.3297,
+        11.43868,
+        23.65925,
+        17.45302,
+        11.83376,
+        28.11535
+      ]
+    }
+  ]
+}

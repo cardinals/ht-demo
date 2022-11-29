@@ -1,0 +1,7 @@
+{
+  "modelType": "obj",
+  "obj": "assets/西咸起步区/guardrail.obj",
+  "mtl": "assets/西咸起步区/guardrail.mtl",
+  "prefix": "assets/西咸起步区/",
+  "reverseFlipMtls": "*"
+}

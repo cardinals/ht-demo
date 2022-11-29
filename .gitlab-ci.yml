@@ -1,0 +1,52 @@
+image: node:15.14.0
+
+stages:
+  - install
+  - deploy
+
+job_install:
+  stage: install
+  script:
+    # # 工程artifactId名
+    # - artifactId='TechAdmin';
+    # # nginx名，规定：nginx+项目名
+    # - nginxName='nginx_TechAdmin';
+    # # web工程访问名
+    # - projectName='TechAdmin'
+    # # vue工程打包名
+    # - vueProjectName='dist'
+    # 仓库名称，git的url后面的一级仓库
+    # projectPath=$5;
+    # ###############################   按照上面参数顺序天下下一行参数值
+    - /home/nginx/nginx_install.sh TechAdmin nginx_TechAdmin TechAdmin dist TechnovatorAdmin
+  only:
+    - develop
+  tags:
+    - TechAdmin-APP-tag
+    
+job_deploy:
+  stage: deploy
+  script:
+    ###   注意URL_PORT和PROJECT_NAME是关键字，不要使用
+    # # 工程artifactId名
+    # - artifactId='TechAdmin';
+    # # nginx名，规定：nginx+项目名
+    # - nginxName='nginx_TechAdmin';
+    # # web工程访问名
+    # - projectName='TechAdmin'
+    # # web工程url+端口号
+    # - webUrl='10.10.49.231:10086'
+    # # vue工程打包名
+    # - vueProjectName='dist'
+    # # nginx端口号
+    # - nginxPort=10086;
+    
+    # ###############################   按照上面参数顺序天下下一行参数值
+    - /home/nginx/nginx_deploy.sh TechAdmin nginx_TechAdmin TechAdmin 10.10.49.231:10086 dist 28083
+    
+    # 工程访问ip：10.10.49.231  部署大约需要2分钟，请在5分钟后访问。
+  only:
+    - develop
+  tags:
+    - TechAdmin-APP-tag
+    

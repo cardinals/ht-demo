@@ -1,0 +1,34 @@
+[
+  {
+    "name": "服务器",
+    "baseUrl": "http://10.10.49.231:18087/xxx"
+  },
+  {
+    "name": "YAPI",
+    "baseUrl": "http://10.10.49.18:3000/mock/5/"
+  },
+  {
+    "name": "田野",
+    "baseUrl": "http://10.10.82.60:8080/xxx"
+  },
+  {
+    "name": "邓玉磊",
+    "baseUrl": "http://10.10.82.48:8080/xxx"
+  },
+  {
+    "name": "赵春杰",
+    "baseUrl": "http://10.10.82.92:8080/xxx"
+  },
+  {
+    "name": "郭丽嫒",
+    "baseUrl": "http://10.10.82.90:9090/xxx"
+  },
+  {
+    "name": "杨时超",
+    "baseUrl": "http://10.10.82.33:8080/xxx"
+  },
+  {
+    "name": "吕广长",
+    "baseUrl": "http://10.10.82.37:8080/xxx"
+  }
+]

@@ -1,0 +1,795 @@
+
+@import "./color.less";
+
+// input
+// 此处同样作用于datepiker和timepiker
+.ivu-input {
+  color: @text-color;
+  border-color: @border-color-base;
+  background-color: @input-bg;
+}
+
+.ivu-input::-webkit-input-placeholder {
+  color: @tooltip-color;
+}
+
+.ivu-input:hover {
+  border-color: @comp-hover-color;
+}
+
+.ivu-input:focus {
+  border-color: @comp-hover-color;
+}
+
+.ivu-input-group-append,
+.ivu-input-group-prepend {
+  color: @text-color;
+  border-color: @border-color-base;
+  background-color: @input-bg;
+}
+
+.ivu-input[disabled], fieldset[disabled] .ivu-input {
+  background-color: @input-bg;
+  color: @tooltip-color;
+}
+
+.ivu-input[disabled]:hover, fieldset[disabled] .ivu-input:hover {
+  border-color: @border-color-base;
+}
+
+// inputnumber
+.ivu-input-number {
+  border-color: @border-color-base;
+  background-color: @input-bg;
+}
+
+.ivu-input-number-handler-wrap {
+  color: @text-color;
+  border-left-color: @border-color-base;
+  background-color: @input-bg;
+}
+
+.ivu-input-number-input {
+  color: @text-color;
+  background-color: @input-bg;
+}
+.ivu-input-word-count {
+  background: none;
+}
+
+// cascader
+.ivu-cascader-menu {
+  border-right-color: @border-color-base;
+}
+
+.ivu-cascader .ivu-cascader-menu-item:hover {
+  color: @text-color;
+  background-color: @item-hover-color;
+}
+
+.ivu-cascader-menu .ivu-cascader-menu-item-active {
+  color: @text-color;
+  background-color: @item-hover-color;
+}
+
+.ivu-input-number-handler-down {
+  border-top-color: @border-color-base;
+}
+
+.ivu-input-number:hover {
+  border-color: @comp-hover-color;
+}
+
+.ivu-cascader-transfer .ivu-cascader-menu-item:hover {
+  color: @text-color;
+  background-color: @item-hover-color;
+}
+
+// select
+.ivu-select-selection {
+  color: @text-color;
+  border-color: @border-color-base;
+  background-color: @input-bg;
+  text-align: left;
+}
+
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+  color: @tooltip-color;
+  text-align: left;
+}
+
+.ivu-select-selection-focused {
+  border-color: @comp-hover-color;
+}
+
+.ivu-select-selection:hover {
+  border-color: @comp-hover-color;
+}
+
+.ivu-select-visible .ivu-select-selection {
+  border-color: @comp-hover-color;
+}
+
+.ivu-select-item {
+  color: @tooltip-color;
+  text-align: left;
+}
+
+.ivu-select-item:hover {
+  color: @text-color;
+  background-color: @item-hover-color;
+}
+
+.ivu-select-item-focus {
+  color: @text-color;
+  background-color: @item-hover-color;
+}
+
+.ivu-select-not-found {
+  color: @tooltip-color;
+}
+
+.ivu-select-dropdown {
+  background-color: @dropdown-background;
+}
+
+.ivu-select-multiple .ivu-select-item-selected {
+  color: @text-color;
+  background-color: @item-hover-color;
+}
+
+.ivu-select-multiple .ivu-select-item-focus,
+.ivu-select-multiple .ivu-select-item-selected:hover {
+  background-color: @item-hover-color;
+}
+
+// dropdown
+.ivu-dropdown-item:hover {
+  color: @text-color;
+  background-color: @item-hover-color;
+}
+
+// timepicker
+.ivu-time-picker-cells-cell-selected,
+.ivu-time-picker-cells-cell-selected:hover {
+  color: @text-color;
+  background-color: @item-hover-color;
+}
+
+.ivu-time-picker-cells-cell:hover {
+  color: @text-color;
+  background-color: @item-hover-color;
+}
+
+.ivu-time-picker-cells-list {
+  border-left-color: @border-color-base;
+}
+
+// datepicker
+.ivu-date-picker-cells-cell:hover em {
+  background-color: @date-picker-cell-hover-bg;
+}
+
+.ivu-date-picker-cells-cell-selected em,
+.ivu-date-picker-cells-cell-selected:hover em {
+  background-color: @primary-color;
+}
+
+.ivu-date-picker-cells-focused em {
+  box-shadow: 0 0 0 1px @primary-color inset;
+}
+
+.ivu-date-picker-cells-cell-today em:after {
+  background-color: @primary-color;
+}
+
+.ivu-picker-panel-icon-btn:hover {
+  color: @primary-color;
+}
+
+.ivu-date-picker-header-label:hover {
+  color: @primary-color;
+}
+
+.ivu-date-picker-cells-month .ivu-date-picker-cells-cell-focused,
+.ivu-date-picker-cells-year .ivu-date-picker-cells-cell-focused {
+  background-color: @date-picker-cell-hover-bg;
+}
+//picker  range
+.ivu-date-picker-cells-cell-range:before {
+  background: @date-picker-cell-hover-bg;
+}
+
+// table
+.ivu-table {
+  background-color: @table-tbody-bg;
+}
+
+.ivu-table th {
+  color: @table-thead-color;
+  background-color: @table-thead-bg;
+}
+
+.ivu-table td {
+  color: @text-color;
+  background-color: @table-tbody-bg;
+}
+
+.ivu-table td,
+.ivu-table th {
+  border-bottom-color: @border-color-split;
+}
+
+.ivu-table-border:after,
+.ivu-table:before {
+  background-color: @border-color-split;
+}
+
+.ivu-table-row-hover td {
+  background-color: @item-hover-color !important;
+}
+
+.ivu-table-fixed-right::before,
+.ivu-table-fixed::before {
+  background-color: @border-color-split;
+}
+
+// table偶数行的颜色改变
+.ivu-table-stripe .ivu-table-body tr:nth-child(2n) td {
+  background-color: @table-td-stripe-bg;
+}
+.ivu-table-stripe .ivu-table-fixed-body tr:nth-child(2n) td {
+  background-color: @table-td-stripe-fixed-bg;
+}
+
+// table奇数数行的颜色改变
+.ivu-table-stripe .ivu-table-body tr:nth-child(2n + 1) td {
+  background-color: @table-tbody-bg;
+}
+.ivu-table-stripe .ivu-table-fixed-body tr:nth-child(2n + 1) td {
+  background-color: @table-tbody-fixed-bg;
+}
+
+//合计table
+.ivu-table-summary tr td {
+  background-color: @table-tbody-bg;
+}
+
+.ivu-table-summary {
+  border-top: 1px solid @border-color-split;
+}
+
+//树形table
+.ivu-table-cell-tree {
+  border: 1px solid @border-color-split;
+  background-color: @item-hover-color;
+}
+
+.ivu-table-cell-tree-empty {
+  cursor: default;
+  color: transparent;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.ivu-table-cell-tree-empty:hover {
+  color: transparent;
+  border-color: transparent
+}
+
+.ivu-tree-title {
+  color: @text-color;
+}
+
+.ivu-tree-title:hover {
+  background-color: @item-hover-color;
+}
+
+.ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: @primary-color;
+  border-color: @primary-color;
+}
+
+
+// spin
+.ivu-spin-fix {
+  background-color: rgba(255,255,255,.07);
+}
+
+// button
+// default_button
+.ivu-btn-default {
+  color: @text-color;
+  border-color: @primary-color;
+  background-color: @btn-default-bg;
+}
+
+.ivu-btn-default:hover {
+  color: @text-color;
+  border-color: @comp-hover-color;
+  background-color: @btn-default-bg;
+}
+
+.ivu-btn-default.active,
+.ivu-btn-default:active {
+  border-color: @primary-color;
+  background-color: @btn-default-bg;
+}
+
+// primary_button
+.ivu-btn-primary {
+  color: @btn-primary-color;
+  border-color: @primary-color;
+  background-color: @primary-color;
+}
+
+.ivu-btn-primary:hover {
+  color: @btn-primary-color;
+  border-color: @comp-hover-color;
+  background-color: @comp-hover-color;
+}
+
+.ivu-btn-primary.active,
+.ivu-btn-primary:active {
+  border-color: @primary-color;
+  background-color: @primary-color;
+}
+
+// dashed_button
+.ivu-btn-dashed {
+  color: @text-color;
+  border-color: @primary-color;
+}
+
+.common-page-style {
+  float: right;
+  margin-right: 10px;
+}
+
+.pure-lucency {
+  background-color: rgba(0, 0, 0, 0);// 纯透明
+}
+
+.__view{
+  background-color: @component-background;
+  background-color: @btn-default-bg;
+}
+
+.ivu-btn-dashed:hover {
+  color: @text-color;
+  border-color: @comp-hover-color;
+  background-color: @btn-default-bg;
+}
+
+.ivu-btn-dashed.active,
+.ivu-btn-dashed:active {
+  border-color: @primary-color;
+  background-color: @btn-default-bg;
+}
+
+// text_button
+.ivu-btn-text {
+  color: @text-color;
+}
+
+.ivu-btn-text:hover {
+  color: @text-color;
+  border-color: @comp-hover-color;
+  background-color: @btn-default-bg;
+}
+
+.ivu-btn-text.active,
+.ivu-btn-text:active {
+  border-color: @primary-color;
+  background-color: @btn-default-bg;
+}
+
+.ivu-btn-primary.disabled,
+.ivu-btn-primary.disabled.active,
+.ivu-btn-primary.disabled:active,
+.ivu-btn-primary.disabled:focus,
+.ivu-btn-primary.disabled:hover,
+.ivu-btn-primary[disabled],
+.ivu-btn-primary[disabled].active,
+.ivu-btn-primary[disabled]:active,
+.ivu-btn-primary[disabled]:focus,
+.ivu-btn-primary[disabled]:hover,
+fieldset[disabled] .ivu-btn-primary,
+fieldset[disabled] .ivu-btn-primary.active,
+fieldset[disabled] .ivu-btn-primary:active,
+fieldset[disabled] .ivu-btn-primary:focus,
+fieldset[disabled] .ivu-btn-primary:hover {
+  color: @text-color;
+  background-color: @dropdown-background;
+  border-color: @border-color-base;
+}
+
+// tag
+.ivu-tag {
+  margin: 0px;
+}
+
+.ivu-tag-text {
+  color: @text-color;
+}
+
+.ivu-tag-default {
+  border-color: @border-color-base;
+  background: @btn-default-bg;
+}
+
+.ivu-tag-primary {
+  border-color: @primary-color;
+  background: @primary-color;
+}
+
+.ivu-icon-ios-close:before {
+  color: @text-color;
+}
+
+.ivu-tag-border {
+  background: @btn-default-bg!important;
+}
+
+.ivu-tag-dot {
+  border-color: @border-color-base!important;
+  background-color: @btn-default-bg!important;
+}
+
+// card
+.ivu-card {
+  color: @text-color;
+  border-radius: 6px;
+  background-color: @dropdown-background;
+}
+
+.ivu-card-head {
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  padding: 10px 20px;
+  background-color: @component-head-background;
+}
+
+.ivu-card-head p,
+.ivu-card-head-inner {
+  color: @text-color;
+  font-size: 14px;
+}
+
+.ivu-card:hover {
+  border-color: @primary-color;
+}
+
+.ivu-card-bordered {
+  border-color: @border-color-base;
+}
+
+// tabs
+.ivu-tabs {
+  color: @text-color;
+}
+
+.ivu-tabs-nav .ivu-tabs-tab-active {
+  color: @primary-color;
+}
+
+.ivu-tabs-nav .ivu-tabs-tab:hover {
+  color: @comp-hover-color;
+}
+
+.ivu-tabs-ink-bar {
+  background-color: @primary-color;
+}
+
+.ivu-tabs-bar {
+  border-bottom-color: @border-color-base;
+}
+
+// page
+.ivu-page-item {
+  border: none;
+  background-color: @component-background;
+}
+
+.ivu-page-item a {
+  color: @text-color;
+}
+
+.ivu-page-item:hover a {
+  color: @primary-color;
+}
+
+.ivu-page-item-active {
+  border: none;
+  border-radius: 16px;
+  background-color: @primary-color;
+}
+
+.ivu-page-item-active a,
+.ivu-page-item-active:hover a {
+  color: @btn-primary-color;
+}
+
+.ivu-page-next,
+.ivu-page-prev {
+  border: none;
+  background-color: @component-background;
+}
+
+.ivu-page-next a,
+.ivu-page-prev a {
+  color: @text-color;
+}
+
+.ivu-page-next:hover a,
+.ivu-page-prev:hover a {
+  color: @primary-color;
+}
+
+.ivu-page-item-jump-next:hover i,
+.ivu-page-item-jump-prev:hover i {
+  color: @primary-color;
+}
+
+.ivu-page-options-elevator input {
+  color: @text-color;
+  border-color: @border-color-base;
+  background-color: @input-bg;
+}
+
+.ivu-page-options-elevator input:hover {
+  border-color: @comp-hover-color;
+}
+
+// radio
+.ivu-radio-inner {
+  border-color: @comp-hover-color;
+  background-color: @component-background;
+}
+
+.ivu-radio-checked .ivu-radio-inner {
+  border-color: @comp-hover-color;
+  background-color: @component-background;
+}
+
+.ivu-radio-inner:after {
+  background-color: @comp-hover-color;
+}
+
+// checkbox
+.ivu-checkbox-inner {
+  border-color: @comp-hover-color;
+  background-color: @component-background;
+}
+
+.ivu-checkbox-checked .ivu-checkbox-inner {
+  border-color: @comp-hover-color;
+  background-color: @comp-hover-color;
+}
+
+.ivu-checkbox-disabled .ivu-checkbox-inner {
+  border-color: @border-color-base;
+  background-color: @component-background;
+}
+
+.ivu-checkbox-disabled:hover {
+  border-color: @border-color-base;
+}
+
+// switch
+.ivu-switch-checked {
+  border-color: @primary-color;
+  background-color: @primary-color;
+}
+
+.ivu-switch:after {
+  background-color: @component-background;
+}
+
+// avatar
+.ivu-avatar {
+  background-color: @primary-color;
+}
+
+// modal
+.ivu-modal {
+  padding-top: calc(12vh);
+}
+
+.ivu-modal-content {
+  background-color: @dropdown-background;
+}
+
+.ivu-modal-header {
+  border-bottom-color: @border-color-split;
+  border-radius: 6px 6px 0 0;
+  background-color: @input-bg;
+}
+
+.ivu-modal-footer {
+  border-top: none;
+}
+
+.ivu-modal-header p,
+.ivu-modal-header-inner {
+  font-family: 'Microsoft YaHei';
+  color: @modal-header-color;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ivu-modal-header p,
+.ivu-modal-header-inner:before {
+  content: "▌";
+  display: inline-block;
+  margin-right: 4px;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.ivu-modal-close .ivu-icon-ios-close {
+  color: @text-color;
+}
+
+.ivu-modal-close .ivu-icon-ios-close:hover {
+  color: @comp-hover-color;
+}
+
+// message
+.ivu-message-notice-content {
+  background-color: @dropdown-background;
+  // box-shadow: 0px 0px 5px 2px @cShadow;
+}
+
+// steps
+.ivu-steps .ivu-steps-head {
+  background: @dropdown-background;
+}
+.ivu-steps .ivu-steps-title {
+  background: @dropdown-background;
+}
+.ivu-steps-item.ivu-steps-status-process .ivu-steps-head-inner {
+  border-color: @primary-color;
+  background-color: @primary-color;
+}
+.ivu-steps-item.ivu-steps-status-process .ivu-steps-title {
+  color: @text-color;
+}
+.ivu-steps-item.ivu-steps-status-finish .ivu-steps-tail > i:after {
+  background: @primary-color;
+}
+.ivu-steps-item.ivu-steps-status-process .ivu-steps-tail > i {
+  background-color: @normal-color;
+}
+.ivu-steps-item.ivu-steps-status-wait .ivu-steps-tail > i {
+  background-color: @normal-color;
+}
+.ivu-steps-item.ivu-steps-status-finish .ivu-steps-head-inner > .ivu-steps-icon,
+.ivu-steps-item.ivu-steps-status-finish .ivu-steps-head-inner span {
+  color: @primary-color;
+}
+.ivu-steps-item.ivu-steps-status-finish .ivu-steps-head-inner {
+  background-color: @dropdown-background;
+  border-color: @primary-color;
+}
+.ivu-steps-item.ivu-steps-status-wait .ivu-steps-head-inner {
+  background-color: @dropdown-background;
+}
+.ivu-steps .ivu-steps-head-inner {
+  border: 1px solid @normal-color;
+}
+.ivu-steps-item.ivu-steps-status-wait .ivu-steps-head-inner span,
+.ivu-steps-item.ivu-steps-status-wait .ivu-steps-head-inner > .ivu-steps-icon {
+  color: @normal-color;
+}
+
+// transfer
+// .ivu-transfer-list-header {
+//   background: @dropdown-background;
+//   border-bottom: 1px solid @border-color-base;
+//   border: 1px solid @border-color-base;
+// }
+
+.ivu-transfer-list-header {
+  background: @dropdown-background;
+  color: @text-color;
+  border-color: @dropdown-background;
+}
+.ivu-transfer-list-content-item:hover {
+  background-color: @item-hover-color;
+}
+.ivu-transfer-list-content-item {
+  color: @text-color;
+}
+.ivu-transfer-list-content-item-disabled {
+  color: @normal-color;
+}
+.ivu-transfer-list-body {
+  border-color: @dropdown-background;
+  border-top: none;
+}
+
+// list
+.ivu-list-bordered {
+  border-color: @border-color-base;
+}
+
+.ivu-list-bordered .ivu-list-item {
+  border-bottom-color: @border-color-split;
+}
+
+.ivu-list-split .ivu-list-header {
+  border-bottom-color: @border-color-split;
+}
+
+.ivu-list-split .ivu-list-footer {
+  border-top-color: @border-color-split;
+}
+
+// split
+.ivu-split-trigger-vertical {
+  background: @component-background;
+}
+
+.ivu-split-trigger {
+  border-color: @border-color-split;
+}
+
+// badge
+.ivu-badge-count {
+  box-shadow: none;
+}
+
+// drawer
+.ivu-drawer-content {
+  background-color: @component-background;
+}
+
+.ivu-drawer-header p, .ivu-drawer-header-inner {
+  color: @text-color;
+}
+
+.ivu-drawer-header {
+  border-bottom-color: @border-color-split;
+}
+
+// poptip
+.ivu-poptip-inner {
+  background-color: @component-background;
+}
+
+.ivu-form .ivu-form-item-label {
+  color: @form-item-label-color;
+}
+
+// menu
+.ivu-menu-light {
+  background: @component-background;
+}
+
+.ivu-menu {
+  color: @text-color;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu {
+  color: @text-color;
+}
+
+.ivu-menu-horizontal.ivu-menu-light:after {
+  background: @border-color-split;
+}
+
+.ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item:hover {
+  color: @comp-hover-color;
+  background: @dropdown-background;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu-active, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover {
+  color: @comp-hover-color;
+  border-bottom-color: @comp-hover-color;
+}
+
+.ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item {
+  color: @text-color;
+}
